@@ -1,0 +1,65 @@
+.medida_cm{
+    border: blue 2px solid;
+    margin: 10px;
+    width: 5cm;
+    height: 5cm;
+    background: white;
+    color: black;
+}
+
+@media only screen and (max-width:1200px){
+    body{
+        background-color: lightsalmon;
+    }
+    .medida_cm{
+        border: blue 2px solid;
+        margin: 10px;
+        width: 4cm;
+        height: 4cm;
+        background: white;
+        color: black;
+    }
+}
+
+@media only screen and (max-width:900px){
+    body{
+        background-color: lightgreen;
+    }
+    .medida_cm{
+        border: blue 2px solid;
+        margin: 10px;
+        width: 2cm;
+        height: 2cm;
+        background: white;
+        color: black;
+    }
+}
+
+@media only screen and (max-width:800px){
+    body{
+        background-color: lightblue;
+    }
+    .medida_cm{
+        border: blue 2px solid;
+        margin: 10px;
+        width: 1cm;
+        height: 1cm;
+        background: white;
+        color: black;
+    }
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-color: lightgray;
+    }
+    .medida_cm{
+        border: blue 2px solid;
+        margin: 10px;
+        width: 1cm;
+        height: 1cm;
+        background: white;
+        color: black;
+        display: none;
+    }
+}
