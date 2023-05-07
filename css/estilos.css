@@ -224,4 +224,23 @@ form {
   .button-registro:hover {
     background-color: #3e8e41;
   }
+  #seccion{
+	float: left;
+	width: 660px;
+	margin: 20px;
+}
+  article{
+	border: 1px solid black;
+	padding: 20px;
+	margin-bottom: 15px;
+	background: #FBD3CA;
+}
+
+article footer{
+	text-align: right;
+}
+
+time{
+	color: #999999;
+}
   
